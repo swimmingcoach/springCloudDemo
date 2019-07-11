@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
-        <module name="service-hello1" />
         <module name="client-feign" />
         <module name="springCloudDemo" />
+        <module name="service-hello1" />
         <module name="service-hello" />
       </profile>
     </annotationProcessing>
