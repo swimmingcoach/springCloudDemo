@@ -5,7 +5,7 @@ import cn.zealot.clientfeign.service.IFeignClientService;
 import org.springframework.stereotype.Component;
 
 @Component
-public class IFeignClientServiceHystric implements IFeignClientService {
+public class IFeignClientServiceHystrix implements IFeignClientService {
     @Override
     public String hello(String id) {
         return "null out";

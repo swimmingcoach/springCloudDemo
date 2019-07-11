@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 @Component
-@FeignClient(value = "service-hello", fallback = IFeignClientServiceHystric.class) //这里的name对应调用服务的spring.applicatoin.name
+@FeignClient(value = "service-hello", fallback = IFeignClientServiceHystrix.class) //这里的name对应调用服务的spring.applicatoin.name
 public interface IFeignClientService {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
