@@ -10,6 +10,7 @@
         <module name="client-feign" />
         <module name="springCloudDemo" />
         <module name="service-hello" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="service-hello" options="-parameters" />
       <module name="service-hello1" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>
